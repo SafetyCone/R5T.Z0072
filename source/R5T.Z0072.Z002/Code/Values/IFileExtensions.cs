@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 
 
 namespace R5T.Z0072.Z002
@@ -13,7 +14,10 @@ namespace R5T.Z0072.Z002
     public partial interface IFileExtensions : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         public Z000.IFileExtensions _Raw => Z000.FileExtensions.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 
