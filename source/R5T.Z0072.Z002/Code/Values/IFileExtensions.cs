@@ -10,6 +10,9 @@ namespace R5T.Z0072.Z002
     /// Conceptually-named, derived, stringly-typed file extensions
     /// (un-opinionated).
     /// </summary>
+    /// <remarks>
+    /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
+    /// </remarks>
     [ValuesMarker]
     public partial interface IFileExtensions : IValuesMarker
     {

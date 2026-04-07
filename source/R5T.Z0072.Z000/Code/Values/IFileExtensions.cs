@@ -9,6 +9,9 @@ namespace R5T.Z0072.Z000
     /// Absolutely-named, fundamental, stringly-typed file extensions
     /// (unopionated).
     /// </summary>
+    /// <remarks>
+    /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
+    /// </remarks>
     [ValuesMarker]
     public partial interface IFileExtensions : IValuesMarker
     {
